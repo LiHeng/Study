@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Study</string>
+    <string name="title_activity_bottom_sheet">BottomSheetActivity</string>
+    <string name="title_activity_temper_chart">TemperChartActivity</string>
+
+    <string name="no_data">Waiting for sensor data...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

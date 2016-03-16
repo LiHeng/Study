@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_detect"
+        android:title="停止检测"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/bar"
+        android:title="曲线图"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/line"
+        android:title="折线图"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="setting"/>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp"
+        android:gravity="bottom"
+        android:id="@+id/OrientationText"
+        android:layout_width="fill_parent"
+        android:layout_height="24.0dip"
+        android:layout_alignParentBottom="true" />
+    <FrameLayout android:padding="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/OrientationText"
+        android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/PointerImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center" />
+        <FrameLayout android:padding="20.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/pointer"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>
